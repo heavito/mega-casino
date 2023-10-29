@@ -1,0 +1,7 @@
+﻿  kazini4.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+E:\c++\kazini4\includes.h(31): warning C4715: exitprogramm: значение возвращается не при всех путях выполнения
+  All 105 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  kazini4.vcxproj -> E:\c++\kazini4\Release\kazini4.exe
