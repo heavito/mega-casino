@@ -4,6 +4,7 @@
 #include <string>
 #include <Windows.h>
 #include "registration users.h"
+#include <fstream>
 void fullscreen()
 {
 	keybd_event(VK_MENU, 0x38, 0, 0);
@@ -16,7 +17,7 @@ int exitprogramm()
 	int want = 1;
 	while (want != 0)
 	{
-		std::cout<< "\n\n\nSend 0 if you want close this programm\n";
+		std::cout<< "\nSend 0 if you want close this programm";
 		std::cin >> want;
 	}
 	return 0;

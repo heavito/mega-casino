@@ -1,14 +1,16 @@
 #include "registration users.h"
 void user::setuser()
 {
-    std::cout << "Registration";
-    std::cout << "\n login:";
+    std::cout << "\nlogin:";
     std::cin >> this->name;
-    std::cout << "\n pass:";
+    std::cout << "\npassword:";
     std::cin >> this->password;
 };
-void user::getuser()
+char* user::getuserlogin()
 {
-    std::cout << this->name << std::endl;
-    std::cout << this->password << std::endl;
+    return this->name;
+};
+char* user::getuserpass()
+{
+    return this->password;
 };
