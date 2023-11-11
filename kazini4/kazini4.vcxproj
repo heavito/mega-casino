@@ -130,9 +130,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="kazini4.cpp" />
+    <ClCompile Include="KostiGame.cpp" />
+    <ClCompile Include="registration users.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h" />
+    <ClInclude Include="KostiGame.h" />
     <ClInclude Include="registration users.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,19 +1,12 @@
 #pragma once
 #include "includes.h"
-
 class user {
 private:
-    std::string name;
-    std::string password;
+    char name[16];
+    char password[32];
+    int money;
 public:
-    user() {
-    }
-
-    void reguser() {
-        std::cout << "Registration";
-        std::cout << "\n login:";
-        std::cin >> name;
-        std::cout << "\n pass:";
-        std::cin >> password;
-    }
+    void setuser();
+    char *getuserlogin();
+    char* getuserpass();
 };

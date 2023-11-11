@@ -1,3 +1,4 @@
-﻿  kazini4.cpp
-E:\c++\kazini4\includes.h(31): warning C4715: exitprogramm: значение возвращается не при всех путях выполнения
-  kazini4.vcxproj -> E:\c++\kazini4\x64\Debug\kazini4.exe
+﻿  KostiGame.cpp
+C:\Users\heavito\source\repos\mega-casino\kazini4\KostiGame.cpp(4,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\heavito\source\repos\mega-casino\kazini4\KostiGame.cpp(36): warning C4715: kosti: значение возвращается не при всех путях выполнения
+  kazini4.vcxproj -> C:\Users\heavito\source\repos\mega-casino\kazini4\x64\Debug\kazini4.exe
