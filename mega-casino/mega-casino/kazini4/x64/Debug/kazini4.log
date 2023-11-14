@@ -1,0 +1,3 @@
+﻿  kazini4.cpp
+C:\Users\heavito\source\repos\mega-casino\kazini4\kazini4.cpp(5,11): warning C4101: ptr: неиспользованная локальная переменная
+  kazini4.vcxproj -> C:\Users\heavito\source\repos\mega-casino\kazini4\x64\Debug\kazini4.exe

@@ -14,3 +14,8 @@ char* user::getuserpass()
 {
     return this->password;
 };
+int user::getmoney()
+{
+    int money = 5000;
+    return this->money;
+}

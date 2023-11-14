@@ -1,27 +1,49 @@
 ﻿#include "includes.h"
+#include "registration users.h"
+#include "KostiGame.h"
 int main()
 {
     setlocale(LC_ALL, "ru");
-    char* ptr;
     user human;
+    std::string loginfo;
+    std::ifstream accauntcheck;
     std::ofstream accauntinfo;
     std::string path = "Accaunt.txt";
-    human.setuser();
-    accauntinfo.open(path);
-    if (!accauntinfo.is_open())
+    accauntcheck.open(path);
+    if (!accauntcheck.is_open())
     {
-        std::cout << "\nOshibka brat ne povezlo brat";
+        std::cout << "\nerorr";
     }
     else
     {
-        char *retlogin;
-        char* retpass;
-        std::cout << "\nDONE!";
-        retlogin = human.getuserlogin();
-        retpass = human.getuserpass();
-        accauntinfo << retlogin;
-        accauntinfo << "\n";
-        accauntinfo << retpass;
+        std::cout << "Welcome in mega-casino\n";
+        while (!accauntcheck.eof())
+        {
+            loginfo = "";
+            std::getline(accauntcheck, loginfo);
+        }
     }
-    exitprogramm();
+    accauntcheck.close();
+    if (loginfo == "")
+    {
+        accauntinfo.open(path);
+        if (!accauntinfo.is_open())
+        {
+            std::cout << "\nOshibka brat ne povezlo brat";
+        }
+        else
+        {
+            char* retlogin;
+            char* retpass;
+            std::cout << "\nDONE!";
+            human.setuser();
+            retlogin = human.getuserlogin();
+            retpass = human.getuserpass();
+            accauntinfo << retlogin;
+            accauntinfo << "\n";
+            accauntinfo << retpass;
+            accauntinfo.close();
+        }
+    }
+    kosti();
 }

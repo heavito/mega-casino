@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kazini4", "kazini4.vcxproj", "{00EA1C5E-5FD4-4892-8FE2-5EC353D47E8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00EA1C5E-5FD4-4892-8FE2-5EC353D47E8E}.Debug|x64.ActiveCfg = Debug|x64
+		{00EA1C5E-5FD4-4892-8FE2-5EC353D47E8E}.Debug|x64.Build.0 = Debug|x64
+		{00EA1C5E-5FD4-4892-8FE2-5EC353D47E8E}.Debug|x86.ActiveCfg = Debug|Win32
+		{00EA1C5E-5FD4-4892-8FE2-5EC353D47E8E}.Debug|x86.Build.0 = Debug|Win32
+		{00EA1C5E-5FD4-4892-8FE2-5EC353D47E8E}.Release|x64.ActiveCfg = Release|x64
+		{00EA1C5E-5FD4-4892-8FE2-5EC353D47E8E}.Release|x64.Build.0 = Release|x64
+		{00EA1C5E-5FD4-4892-8FE2-5EC353D47E8E}.Release|x86.ActiveCfg = Release|Win32
+		{00EA1C5E-5FD4-4892-8FE2-5EC353D47E8E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6CB4988-9283-4E88-9F49-C5AE28475A11}
+	EndGlobalSection
+EndGlobal

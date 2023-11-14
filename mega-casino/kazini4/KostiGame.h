@@ -1,2 +1,4 @@
 #pragma once
-#include "KostiGame.h"
+#include "includes.h"
+int randkosti(int min, int max);
+int kosti();
