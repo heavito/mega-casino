@@ -14,8 +14,19 @@ char* user::getuserpass()
 {
     return this->password;
 };
-int user::getmoney()
+int user::getmoney(int moneyhuman)
 {
-    int money = 5000;
+    this->money = moneyhuman;
+    std::cout << "MONEY NOW IS " << this->money << std::endl;
+    return this->money;
+}
+int user::setmoney()
+{
+    this->money = 0;
+    if (this->money == 0)
+    {
+        money = this->money + 1000;
+    }
+    std::cout << "MONEY NOW IS " << this->money << std::endl;
     return this->money;
 }

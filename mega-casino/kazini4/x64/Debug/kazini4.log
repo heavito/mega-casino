@@ -1,2 +1,8 @@
-﻿  kazini4.cpp
+﻿  KostiGame.cpp
+C:\Users\Den\source\repos\mega-casino\kazini4\KostiGame.cpp(5,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  kazini4.cpp
+  registration users.cpp
+  Создание кода...
+C:\Users\Den\source\repos\mega-casino\kazini4\KostiGame.cpp(71): warning C4715: kosti: значение возвращается не при всех путях выполнения
+  LINK : не найден или не выполнена сборка C:\Users\Den\source\repos\mega-casino\kazini4\x64\Debug\kazini4.exe при последней инкрементной компоновке; выполняется полная компоновка
   kazini4.vcxproj -> C:\Users\Den\source\repos\mega-casino\kazini4\x64\Debug\kazini4.exe

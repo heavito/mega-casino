@@ -3,8 +3,8 @@
 #include "KostiGame.h"
 int main()
 {
-    setlocale(LC_ALL, "ru");
     user human;
+    setlocale(LC_ALL, "ru");
     std::string loginfo;
     std::ifstream accauntcheck;
     std::ofstream accauntinfo;

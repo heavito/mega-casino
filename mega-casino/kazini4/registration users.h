@@ -9,5 +9,6 @@ public:
     void setuser();
     char *getuserlogin();
     char* getuserpass();
-    int getmoney();
+    int getmoney(int moneyhuman);
+    int setmoney();
 };
